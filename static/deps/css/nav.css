@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    width: 60px;
+    margin-inline: 150px;
+    margin-top: 7px;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(0, 0, 0);
+}
+
+.dropdown-toggle {
+    background-color: black;
+    padding: 0;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.navlist a {
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    color: bisque;
+}
+
+.navbar a:hover {
+    color: rgb(253, 107, 3);
+}
+
+.navlist>a img {
+    max-width: 40px;
+}
+
+.navbtn {
+    display: none;
+}
+
+
+
+@media(max-width: 1000px) {
+    .navbtn {
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 3px;
+        border-style: none;
+        border-radius: 10px;
+        cursor: pointer;
+        display: block;
+        background-color: rgb(41, 41, 41);
+    }
+    .navlist {
+        display: none;
+    }
+    .drop:hover .navlist {
+        display: block;
+        position: absolute;
+        background-color: black;
+    }
+}
+
+
+
+

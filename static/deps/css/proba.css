@@ -1,0 +1,297 @@
+.prob {
+    width: 100%;
+}
+
+.prob>.row>.proba img {
+    width: 100%;
+    height: 70vh;
+}
+
+.contact {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1);
+}
+
+.left {
+    grid-column: 1/2;
+}
+
+.centr {
+    grid-column: 2/12;
+}
+
+.right {
+    grid-column: 12/13;
+}
+
+.centr {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+
+.con {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    color: bisque;
+    margin-top: 100px;
+}
+
+.polosa {
+    grid-column: 1/13;
+    grid-row: 2/3;
+    background-color: chocolate;
+    height: 1px;
+}
+
+.info1 {
+    grid-column: 1/7;
+    grid-row: 3/4;
+    margin-top: 100px;
+}
+
+.info2 {
+    grid-column: 7/13;
+    grid-row: 3/4;
+    margin-top: 100px;
+}
+
+.card {
+    grid-column: 1/7;
+    grid-row: 4/5;
+    margin-top: 100px;
+}
+
+.soc {
+    grid-column: 7/13;
+    grid-row: 4/5;
+    margin-top: 100px;
+}
+
+.gramota1 {
+    width: 100%;
+    grid-column: 1/7;
+    grid-row: 5/6;
+    margin-top: 100px;
+}
+
+.gramota2 {
+    width: 100%;
+    grid-column: 7/13;
+    grid-row: 5/6;
+    margin-top: 100px;
+}
+
+.consul {
+    grid-column: 1/13;
+    grid-row: 6/7;
+}
+
+.gramota1 img,
+.gramota2 img {
+    width: 97%;
+    margin: 1em;
+}
+
+.info1 p,
+.info2 p {
+    color: bisque;
+    padding: 2em;
+}
+
+.info2 a {
+    text-decoration: none;
+    color: chocolate;
+    padding-inline: 2em;
+}
+
+.card {
+    max-height: 200px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+
+.card1 {
+    height: 50%;
+    grid-column: 1/13;
+    grid-row: 1/2;
+}
+
+.card2 {
+    height: 50%;
+    grid-column: 1/13;
+    grid-row: 2/3;
+}
+
+.card1,
+.card2 {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(36, 36, 36);
+}
+
+.card1 img,
+.card2 img {
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.card1 p,
+.card2 p {
+    color: bisque;
+    padding-left: 4%;
+    padding-top: 3%;
+}
+
+.card1 a,
+.card2 a {
+    text-decoration: none;
+    color: bisque;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.soc {
+    width: 95%;
+    max-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    background-color: rgb(36, 36, 36);
+    border-radius: 20px;
+}
+
+.soc a {
+    color: bisque;
+    text-decoration: none;  
+}
+
+.soc>.wac h6,
+.soc>.teleg h6,
+.soc>.vk h6,
+.soc>.yutube h6 {
+    margin-top: 100%;
+    text-align: center;   
+}
+
+.lin {
+    width: 1px;
+    height: 60%;
+    margin-top: 50%;
+    margin-left: 40%;
+    background-color: chocolate;
+}
+
+.consul {
+    background-color: rgb(25, 25, 25);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.consul h2,
+.consul p {
+    color: bisque;
+}
+
+.dost {
+    padding: 2em;
+}
+
+.form {
+    padding: 2em;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+@media(max-width: 1000px) {
+    .contact {
+        grid-template-rows: repeat(3);
+    }
+    
+    .left {
+        grid-column: 1/13;
+    }
+    
+    .centr {
+        grid-column: 1/13;
+    }
+    
+    .right {
+        grid-column: 1/13;
+    }
+    .contact {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto;
+    }
+    .centr {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto;
+    }
+    
+    .con {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    
+    .polosa {
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    
+    .info1 {
+        grid-column: 1/13;
+        grid-row: 3/4;
+    }
+    
+    .info2 {
+        grid-column: 1/13;
+        grid-row: 4/5;
+    }
+    
+    .card {
+        grid-column: 1/13;
+        grid-row: 5/6;
+    }
+    
+    .soc {
+        grid-column: 1/13;
+        grid-row: 6/7;
+    }
+    
+    .gramota1 {
+        width: 100%;
+        grid-column: 1/13;
+        grid-row: 7/8;
+    }
+    
+    .gramota2 {
+        width: 100%;
+        grid-column: 1/13;
+        grid-row: 8/9;
+    }
+    
+    .consul {
+        grid-column: 1/13;
+        grid-row: 9/10;
+    }
+    .consul {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+}

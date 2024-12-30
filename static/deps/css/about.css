@@ -1,0 +1,250 @@
+h2,
+h4,
+h5,
+h6,
+p,
+li {
+    color: bisque;
+}
+
+h3 {
+    color: #f4c33e;
+}
+
+.about {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.ab {
+    width: 100%;
+}
+
+.ab img {
+    width: 100%;
+    height: 70vh;
+}
+
+.ableft {
+    grid-column: 1/2;
+}
+
+.abcentr {
+    grid-column: 2/12;
+}
+
+.abright {
+    grid-column: 12/13;
+}
+
+.abcentr h2 {
+    color: bisque;
+}
+
+.butt>.btn {
+    margin-inline: 1em;
+}
+
+.abcentr {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+
+
+.abo {
+    grid-column: 1/13;
+    grid-row: 1/2;
+}
+
+.lin {
+    grid-column: 1/13;
+    grid-row: 2/3;
+    height: 1px;
+    background: linear-gradient(90deg, #000000 0%, #f4c33e 100%);
+}
+
+.butt {
+    grid-column: 1/13;
+    grid-row: 3/4;
+    margin-top: 50px;
+}
+
+.missia {
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+.misp {
+    grid-column: 4/13;
+    grid-row: 4/5;
+}
+
+.cenn {
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+
+.list {
+    grid-column: 4/13;
+    grid-row: 5/6;
+}
+
+.func {
+    grid-column: 1/4;
+    grid-row: 6/7;
+}
+
+.funcp {
+    grid-column: 4/13;
+    grid-row: 6/7;
+}
+
+.dla {
+    grid-column: 1/13;
+    grid-row: 7/8;
+}
+
+.buscard {
+    grid-column: 1/13;
+    grid-row: 8/9;
+}
+
+.slide {
+    grid-column: 1/7;
+    grid-row: 9/10;
+    margin-block: 100px;
+}
+
+.text-slide {
+    grid-column: 7/13;
+    grid-row: 9/10;
+    margin-top: 200px;
+}
+
+.buscard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 40px;
+}
+
+.card {
+    background-color: black;
+    max-height: 400px;
+    margin-top: 5em;
+}
+
+.card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.ppp {
+    background: linear-gradient(324deg, #491803 0%, #131313 29%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1em;
+}
+
+.ppp:hover {
+    background: linear-gradient(324deg, #491803 0%, #131313 60%);
+}
+
+@media(max-width: 900px) {
+    .about {
+        grid-template-rows: repeat(3);
+    }
+
+    .ableft {
+        grid-column: 1/13;
+    }
+
+    .abcentr {
+        grid-column: 1/13;
+    }
+
+    .abright {
+        grid-column: 1/13;
+    }
+
+    .abcentr {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .abo {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+
+    .lin {
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    .butt {
+        grid-column: 1/13;
+        grid-row: 3/4;
+    }
+
+    .missia {
+        grid-column: 1/13;
+        grid-row: 4/5;
+    }
+
+    .misp {
+        grid-column: 1/13;
+        grid-row: 5/6;
+    }
+
+    .cenn {
+        grid-column: 1/13;
+        grid-row: 6/7;
+    }
+
+    .list {
+        grid-column: 1/13;
+        grid-row: 7/8;
+    }
+
+    .func {
+        grid-column: 1/13;
+        grid-row: 8/9;
+    }
+
+    .funcp {
+        grid-column: 1/13;
+        grid-row: 9/10;
+    }
+    .dla {
+        grid-column: 1/13;
+        grid-row: 10/11;
+    }
+    
+    .buscard {
+        grid-column: 1/13;
+        grid-row: 11/12;
+    }
+    .slide {
+        grid-column: 1/13;
+        grid-row: 12/13;
+    }
+    
+    .text-slide {
+        grid-column: 1/13;
+        grid-row: 13/14;
+    }
+    .buscard {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3);
+        gap: 20px;
+    }
+    .butt>.btn {
+        margin-inline: 1px;
+    } 
+    .card {
+        margin-top: 200px;
+    }
+}

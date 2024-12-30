@@ -1,0 +1,19 @@
+.modal-body,
+.modal-header {
+    width: 100%;
+}
+
+.modal-body img,
+.modal-header img {
+    width: 100%;
+}
+
+.modal-content {
+    background-color: rgb(39, 38, 38);
+}
+
+textarea {
+    width: 185px;
+    height: 100px;
+}
+
