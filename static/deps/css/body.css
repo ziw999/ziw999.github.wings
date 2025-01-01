@@ -480,6 +480,9 @@
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(10);
     }
+    .cart img {
+        width: 180px;
+    }
     .preimush {
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(1);
@@ -498,8 +501,13 @@
     }
     .cered {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6);
-        margin-inline: 10%;
+        grid-template-rows: auto;
+    }
+    .auto2 {
+        display: none;
+    }
+    .car {
+        grid-column: 1/13;
     }
     .preimush h2 {
         font-size: 3em;
